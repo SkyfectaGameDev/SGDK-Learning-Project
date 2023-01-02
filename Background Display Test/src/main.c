@@ -2,7 +2,7 @@
 
 int main()
 {
-	VDP_drawText("Hello Sega World!", 10, 13);
+	VDP_drawText("Skyfecta Games Presents", 10, 13);
 
 	while(1)
 	{        
