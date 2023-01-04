@@ -15,10 +15,10 @@ int main()
 
 	// ----- Foreground Rendering -----
 	PAL_setPalette(PAL1, fg1.palette->data, DMA);															// Assigning pallette 1 to the colours in foreground 1's image.
-	VDP_drawImageEx(BG_A, &fg1, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, -4, FALSE, TRUE);			// Draws foreground image on the foreground plane from the top-left of the screen.
+	VDP_drawImageEx(BG_A, &fg1, TILE_ATTR_FULL(PAL1, FALSE, FALSE, FALSE, ind), 0, -4, FALSE, TRUE);		// Draws foreground image on the foreground plane from the top-left of the screen.
 
 	// ----- Text Rendering -----
-	VDP_drawText("Skyfecta Games Presents", 8, 13);															// Draws text at designated position.
+	VDP_drawText("Welcome to Freeheart Forest", 8, 13);														// Draws text at designated position.
 
 	// ----- Background Scroll Setup -----
 	VDP_setScrollingMode(HSCROLL_PLANE, VSCROLL_PLANE);														// Enables scrolling by planes, and how much it scrolls by.
