@@ -1,2 +1,2 @@
-IMAGE bg1 "background2.png" BEST ALL
-IMAGE fg1 "foreground2.png" BEST ALL
+IMAGE bg1 "fhf_bg.png" BEST ALL
+IMAGE fg1 "fhf_fg.png" BEST ALL
